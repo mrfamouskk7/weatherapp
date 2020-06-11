@@ -1,4 +1,4 @@
-# weatherapp
+# WeatherApp
 
 My First Flask project
 
