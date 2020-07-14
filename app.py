@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/city')
 def search_city():
-    API_KEY = 'd3dfa3ff8cbb2f72a28317073dbba258'  # initialize your key here
+    API_KEY = 'YOUR_API_KEY'  # initialize your key here
     city = request.args.get('cname')  # city name passed as argument
 
     # call API and convert response into Python dictionary
